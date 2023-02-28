@@ -1,5 +1,6 @@
 ## lamanu_sql
-# Qu'est-ce qu'on sait ? 
+# Qu'est-ce qu'on sait ?
+[27/02/23] 
 * On sait créer une base de données ```CREATE DATABASE <nom de la bdd>```
 * Ajouter des éléments de la base données ``` INSERT INTO <nom de la table> [(nom de colonnes)] [VALUES] (val, val2, val3)``` 
 * Afficher des éléments de la bdd ```SELECT * FROM <nom de la table>```
@@ -8,4 +9,9 @@
 * Supprimer des bdd ```DROP DATABASE <nom de la bdd>```
 
 * On peut créer des tables ```CREATE TABLE {} ```
-* On peut supprimer des tables  ``` DROP TABLE ``` 
+* On peut supprimer des tables  ``` DROP TABLE  ```
+* On sait faire une jointure ```SELECT * from <nom de table> INNER JOIN <nom de table bis> ON table1.id = table2.id```
+* On sait modifier des enregistrements ```UPDATE <nom de table> SET <nom le colonne> = <val>, <nom de la colone 2> = val2, .... WHERE col = val; ```
+*  On sait faire des fonctions aggrégations (avg, count, sum)
+* On sait supprimer des enregistrements ```
+DELETE FROM table_name WHERE condition;```
