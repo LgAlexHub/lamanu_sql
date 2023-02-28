@@ -15,3 +15,9 @@
 *  On sait faire des fonctions aggrégations (avg, count, sum)
 * On sait supprimer des enregistrements ```
 DELETE FROM table_name WHERE condition;```
+* Utilisation de la limit pour définir le nombre de ligne à renvoyer 
+* On sait afficher en triant ```ORDER BY <colonne(s)>[desc|asc] ```
+* On sait regrouper nos informations ```GROUP BY ```
+* On sait faire une sous requête 
+* MIN , MAX , renvoie le min ou le max d'une plage de données
+* ALIASES permet de renomer une table
